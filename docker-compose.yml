@@ -1,7 +1,7 @@
 tcharts_pytorch_tensorflow:
     build: .
-    environment:
-      WORKER_SMTP_PORT: 265
+    # environment:
+    #   WORKER_SMTP_PORT: 265
     command: python app.py
     volumes:
       - .:/home/app/tact_chart
