@@ -11,7 +11,7 @@ import json
 
 
 app  = Flask(__name__)
-PORT = 3000
+PORT = 7021
 
 @app.route("/", methods=["GET","POST"])
 def startpy():
